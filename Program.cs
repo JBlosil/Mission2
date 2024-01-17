@@ -53,7 +53,7 @@ internal class DiceSimulator
 
         for (int i = 2; i <= 12; i++)
         {
-            results[i] = results[i] * 100 / rolls;
+            results[i] = (results[i] / rolls) * 100;
         }
 
         return results;

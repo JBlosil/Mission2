@@ -15,6 +15,7 @@ internal class Program
         System.Console.WriteLine("DICE SIMULATION RESULTS");
 
         System.Console.WriteLine("Each '*' represents 1 % of the total number of rolls.");
+
         System.Console.WriteLine("Total number of rolls = " + rolls + "\n");
 
 
@@ -52,7 +53,7 @@ internal class DiceSimulator
 
         for (int i = 2; i <= 12; i++)
         {
-            results[i] = (int)Math.Round((double)results[i] / rolls * 100);
+            results[i] = results[i] * 100 / rolls;
         }
 
         return results;

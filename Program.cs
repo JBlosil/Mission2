@@ -35,7 +35,7 @@ internal class Program
     }
 }
 
-internal static class DiceSimulator
+internal class DiceSimulator
 {
     private static readonly Random random = new Random();
 

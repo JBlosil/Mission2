@@ -1,6 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
